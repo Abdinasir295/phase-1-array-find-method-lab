@@ -1,7 +1,5 @@
 require ( './helpers.js' );
-
-
-describe('superbowlWin(record)', function () {
+  describe('superbowlWin(record)', function () {
   const record = [
     { year: "2018", result: "N/A"},
     { year: "2017", result: "N/A"},
@@ -59,7 +57,7 @@ describe('superbowlWin(record)', function () {
     { year: "1965", result: "N/A"},
     { year: "1964", result: "N/A"},
     { year: "1963", result: "N/A"},
-    { year: "1962", result: "N/A"},
+    {year : "1962", result: "N/A"},
     { year: "1961", result: "N/A"},
     { year: "1960", result: "N/A"}
   ]
