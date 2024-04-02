@@ -59,10 +59,8 @@ const record = [
     { year: "1961", result: "N/A"},
     { year: "1960", result: "N/A"}
   ]
-  // helpers.js
 function superbowlWin(record) {
   const win = record.find(entry => entry.result === "W");
   return win ? win.year : undefined;
 }
 
-module.exports = superbowlWin;
